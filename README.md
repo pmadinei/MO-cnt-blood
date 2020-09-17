@@ -14,15 +14,15 @@ First, the RGB coloring transformed to HSV (hue, saturation, value) coloring for
 hsvI = rgb2hsv(a)
 ```
 Results Is showed bellow:
-![Original Image](/Results/Original Image.png)
-![HSV Transformed](/Results/HSV Transformed)
+![Original Image](https://github.com/pmadinei/MO-cnt-blood/blob/master/Results/Original%20Image.png)
+![HSV Transformed](https://github.com/pmadinei/MO-cnt-blood/blob/master/Results/HSV%20Transformed.png)
 
 Then, for Morphological operations, "Dilation & Erosion" plus "Open & Close" were implemented; Thus, as the final level, the holes were being filled with the code bellow:
 ```Matlab
 red = imfill(red,'holes');
 ```
-As it's been showen bellow, the red blood cells are clearly visible and countable. Consequently, the machine can count it pretty easily.
-![Filled Holes](/Results/Filled Holes.png)
+As it's been showen bellow, the red blood cells are clearly visible and countable. Consequently, a simple CNN can count it pretty easily.
+![Filled Holes](https://github.com/pmadinei/MO-cnt-blood/blob/master/Results/Filled%20Holes.png)
 
 # Reference
 * [A novel approach for segmentation and counting of overlapped leukocytes in microscopic blood images](https://www.sciencedirect.com/science/article/abs/pii/S0208521620300267#fn0010)
