@@ -6,7 +6,7 @@ Throughout this project, morphological operations were being used to count Red a
 * Matlab Live Editor
 
 ## Dataset
-Download Dataset ALL_IDB2 from [Here](https://homes.di.unimi.it/scotti/all/)
+Download Dataset ALL_IDB1 from [Here](https://homes.di.unimi.it/scotti/all/)
 
 # Implementation
 First, the RGB coloring transformed to HSV (hue, saturation, value) coloring for further considerations. The code below was responsible for that:
@@ -15,7 +15,7 @@ hsvI = rgb2hsv(a)
 ```
 Results Is showed bellow:
 ![Original Image](/Results/Original Image.png)
-![HSV Transformed](/Results/HSV Transformed.png)
+![HSV Transformed](/Results/HSV Transformed)
 
 Then, for Morphological operations, "Dilation & Erosion" plus "Open & Close" were implemented; Thus, as the final level, the holes were being filled with the code bellow:
 ```Matlab
