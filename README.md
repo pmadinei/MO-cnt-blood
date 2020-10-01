@@ -1,5 +1,5 @@
 # Introduction
-Throughout this project, morphological operations were being used to count Red and White cells in microscopic blood smear images. 
+Throughout this project, morphological operations were being used to Process Microscopic Blood Smear Images and Differentiate Erythrocytes from Other Blood Cells.
 
 # Requirement
 * Matlab > R2019b
