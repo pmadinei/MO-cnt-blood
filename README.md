@@ -13,7 +13,7 @@ First, the RGB coloring transformed to HSV (hue, saturation, value) coloring for
 ```Matlab
 hsvI = rgb2hsv(a)
 ```
-Results Is showed bellow:
+Results are showed bellow:
 ![Original Image](https://github.com/pmadinei/MO-cnt-blood/blob/master/Results/Original%20Image.png)
 ![HSV Transformed](https://github.com/pmadinei/MO-cnt-blood/blob/master/Results/HSV%20Transformed.png)
 
@@ -21,7 +21,7 @@ Then, for Morphological operations, "Dilation & Erosion" plus "Open & Close" wer
 ```Matlab
 red = imfill(red,'holes');
 ```
-As it's been showen bellow, the red blood cells are clearly visible and countable. Consequently, a simple CNN can count it pretty easily.
+As it's been shown bellow, the red blood cells are clearly visible and countable. Consequently, a simple CNN can count it pretty easily.
 ![Filled Holes](https://github.com/pmadinei/MO-cnt-blood/blob/master/Results/Filled%20Holes.png)
 
 # Reference
