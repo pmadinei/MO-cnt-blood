@@ -24,6 +24,6 @@ red = imfill(red,'holes');
 As it's been shown bellow, the red blood cells are clearly visible and countable. Consequently, a simple CNN can count it pretty easily.
 ![Filled Holes](https://github.com/pmadinei/MO-cnt-blood/blob/master/Results/Filled%20Holes.png)
 
-# Reference
+# References
 * [A novel approach for segmentation and counting of overlapped leukocytes in microscopic blood images](https://www.sciencedirect.com/science/article/abs/pii/S0208521620300267#fn0010)
 * [An Automated Method for Counting Red Blood Cells using Image Processing](https://www.sciencedirect.com/science/article/pii/S1877050920308747)
